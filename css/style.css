@@ -1,0 +1,498 @@
+@charset "UTF-8";
+
+#wrap {
+    overflow-x: hidden;
+}
+
+#header {
+    height: 113px;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+.head_inner {
+    width: 1200px;
+    height: 113px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.top_menu {
+    text-align: right;
+}
+
+.top_menu li {
+    display: inline-block;
+}
+
+.top_menu li a {
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+    /* border: 1px solid white; */
+}
+
+.top_menu li a:last-child {
+    padding-right: 0 !important;
+}
+
+.logo {
+    width: 112px;
+    height: 45px;
+    float: left;
+}
+
+.logo a {
+    display: block;
+    height: 45px;
+    background: url(../img/ico-zeus-logo.png) no-repeat;
+    text-indent: -99999px;
+}
+
+.nav {
+    float: right;
+}
+
+.main_menu {}
+
+.main_menu li {
+    float: left;
+}
+
+.main_menu li a {
+    display: block;
+    width: 70px;
+    height: 45px;
+    font-size: 25px;
+}
+
+.main_menu li:last-child {
+    padding-right: 0 !important;
+}
+
+.classic {
+    /* height: 761px; */
+    /* background-image: linear-gradient(#fff 60%,#f1f1f1 60.1%); */
+    background: url(../img/bg.jpg) repeat-x left bottom;
+    overflow: hidden;
+}
+
+.classic_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 25px;
+}
+
+.cla_menu {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cla_menu li {
+    display: inline-block;
+}
+
+.cla_menu li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.cla_menu .first a {
+    border-bottom: 2px solid black;
+
+}
+
+.cla_list {}
+
+.cla_list li {
+    float: left;
+    width: 384px;
+    height: 520px;
+    margin-right: 24px;
+}
+
+.cla_list li:last-child {
+    margin-right: 0 !important;
+}
+
+.cla_list .list1 {
+    background: url(../img/claasic1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cla_list .list2 {
+    background: url(../img/classic2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cla_list .list3 {
+    background: url(../img/classic3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cla_list li a {
+    display: block;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cla_list li a .top {
+    width: 60px;
+    height: 70px;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.top h3 {
+    font-size: 25px;
+}
+
+.top span {
+    font-size: 16px;
+}
+
+.cla_list .txt {
+    width: 344px;
+    height: 245px;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 420px;
+    transform: translateX(-50%);
+    padding: 30px;
+    transition: all 0.5s;
+}
+
+.cla_list .txt .p3 span {
+    font-size: 16px;
+}
+
+.cla_list .txt .p1 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.cla_list .txt .p2 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.cla_list .txt .p3 {
+    font-size: 25px;
+}
+
+.cla_list a:hover .txt {
+    top: 250px;
+    background: #fff;
+    color: #333;
+}
+
+.special {
+    background: url(../img/bg.jpg) repeat-x left bottom;
+    overflow: hidden;
+}
+
+.special_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.spe_menu {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.spe_menu li {
+    display: inline-block;
+}
+
+.spe_menu li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.spe_menu li:first-child {
+    border-bottom: 2px solid black;
+}
+
+.spe_list li {
+    width: 384px;
+    height: 520px;
+    float: left;
+    margin-right: 24px;
+}
+
+.spe_list .list1 {
+    background: url(../img/special1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.spe_list .list2 {
+    background: url(../img/special2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.spe_list .list3 {
+    background: url(../img/special3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 0 !important;
+}
+
+.spe_list li a {
+    display: block;
+    height: 100%;
+}
+
+.spe_list .top {
+    width: 60px;
+    height: 70px;
+    background: #000;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.spe_list .top h3 {
+    font-size: 25px;
+}
+
+.spe_list .top span {
+    font-size: 16px;
+}
+
+.spe_list li .txt {
+    position: relative;
+}
+
+.spe_list .txt {
+    width: 344px;
+    height: 245px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 355px;
+    transform: translateX(-50%);
+    transition: all 0.5s;
+}
+
+.spe_list .txt .p1 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.spe_list .txt .p2 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.spe_list .txt .p3 {
+    font-size: 25px;
+}
+
+.spe_list a:hover .txt {
+    background: #fff;
+    color: #333;
+    top: 180px;
+}
+
+.notice {
+    border-bottom: 1px solid #b5b3b3;
+    height: 240px;
+}
+
+.no_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.no_list {
+    position: relative;
+}
+
+.no_list li {
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    position: relative;
+    border-right: 1px solid #b5b3b3;
+}
+
+.no_list li:nth-child(1){
+    position: absolute;
+    left:0px;
+    top: 50px;
+}
+.no_list li:nth-child(2){
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.no_list li:nth-child(3){
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+.no_list li:nth-child(4){
+    position: absolute;
+    left: 900px;
+    top: 50px;
+    border-right: 0 !important;
+}
+
+.no_list li .img1 {
+    width: 35px;
+    height: 35px;
+    background: url(../img/spr_icn.png) no-repeat;
+    background-position: -203px -254px;
+}
+
+.no_list li .img2 {
+    width: 35px;
+    height: 35px;
+    background: url(../img/spr_icn.png) no-repeat;
+    background-position: -235px -254px;
+}
+
+.no_list li .img3 {
+    width:35px;
+    height: 35px;
+    background: url(../img/spr_icn.png) no-repeat;
+    background-position: -268px -254px;
+}
+
+.no_list li .img4 {
+    width: 35px;
+    height: 35px;
+    background: url(../img/spr_icn.png) no-repeat;
+    background-position: -301px -254px;
+}
+
+.no_list li a {
+    display: inline-block;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.no_list li div{
+    position: absolute;
+    left: 130px;
+    bottom: 90px;
+}
+
+.no_list li p {}
+
+#footer{}
+
+.fo_inner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.line1{}
+.line1 span{
+    display: inline-block;
+}
+
+.line1 span a{
+    display: block;
+    padding:  10px;
+    position: relative;
+}
+
+.line1 span a::after{
+    content: "|";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.line1 span:last-child a::after{
+    display: none;
+}
+
+.line1 span:nth-child(3){
+    color: rgb(65, 65, 252);
+}
+.line2 span:nth-child(1){
+    color: rgb(65, 65, 252);
+}
+.line2 span:nth-child(6){
+    color: rgb(65, 65, 252);
+}
+.line2 span:nth-child(14){
+    color: rgb(65, 65, 252);
+}
+
+.line1 a:first-child{
+    padding-left: 0 !important;
+}
+
+.line2{color: #515151;}
+
+.line2 span{
+    font-size: 12px;
+    padding: 5px 10px 5px 0;
+    position: relative;
+}
+
+img{vertical-align: middle;}
+        /* 이미지가 글씨의 중간에 오게 하는것 리셋에 적는거 */
+
+.line2 a.bold{text-decoration: underline;}
+
+.line2 span::after{
+    content: "|";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+
+.line2 span.noline::after{display: none;}
+
+.f_txt{
+    padding: 10px 0;
+    line-height: 1.7;
+    color: #515151;
+}
+
+.copy{
+    padding: 10px 0;
+    color: #515151;
+}
+
+.vit{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.tel{
+    position: absolute;
+    right: 280px;
+    top: 15px;
+}
